@@ -1,0 +1,14 @@
+git流程：
+git init                             --初始化仓库
+git add <filename1> <filename2>...   --添加文件到暂存区
+git commit -m "更改留言"              --把文件提交到仓库
+
+
+git 奇技淫巧：
+git status                            --掌握工作区状态
+git diff                              --查看修改内容
+git reset --hard commit_id            -- 返回到制定版本
+git log                               --查看提交历史
+git reflog                            --查看命令历史
+git checkout -- filename              --放弃工作区的文件修改（即add之前）
+git reset HEAD filename               --放弃暂存区的修改（即add之后commit之前）
