@@ -25,6 +25,7 @@ git checkout -b <branchname>          --创建一个分支
 git checkout <branchname>             --回到某分支
 git merge <branchname>                --合并指定分支到当前分支
 git branch -d <branchname>            --删除分支
+git brance -D <branchname>            --强制删除未合并的分支
 git branch                            --查看所有分支
 git log --graph                       --查看分支合并图
 git merge --no-ff <branchname>        --强制非快速合并
