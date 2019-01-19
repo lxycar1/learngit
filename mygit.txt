@@ -27,4 +27,9 @@ git merge <branchname>                --合并指定分支到当前分支
 git branch -d <branchname>            --删除分支
 git branch                            --查看所有分支
 git log --graph                       --查看分支合并图
-git merge --no-ff <branchname>        --强制非快速合并 
+git merge --no-ff <branchname>        --强制非快速合并
+git stash                             --暂存分支
+git stash list                        --查看暂存列表
+git stash apply <stashname>           --恢复到分支，但stash内容不删除
+git stash drop <stashname>            --删除stash内容
+git stash pop <stashname>             --恢复stash,并且删除 
