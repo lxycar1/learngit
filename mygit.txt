@@ -20,3 +20,9 @@ git checkout -- filename              --放弃工作区的文件修改（即add�
 git reset HEAD filename               --放弃暂存区的修改（即add之后commit之前）
 git rm                                --用于删除一个文件
 
+分支
+git checkout -b <branchname>          --创建一个分支
+git checkout <branchname>             --回到某分支
+git merge <branchname>                --合并指定分支到当前分支
+git branch -d <branchname>            --删除分支
+git branch                            --查看所有分支
