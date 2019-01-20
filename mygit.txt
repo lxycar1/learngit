@@ -22,6 +22,10 @@ git rm                                --用于删除一个文件
 git tag                               --查看所有标签
 git tag <tagname>                     --给本次提交打标签
 git tag <tagname> <tagnumber>         --更改某次标签的内容（依据标签号）
+git push origin <tagname>             --推送本地标签
+git push origin --tags                --推送全部本地未推送的标签
+git tag -d <tagname>                  --删除本地标签
+git push origin :refs/tags/<tagname>  --删除远程标签
 
 分支:
     git checkout -b <branchname>          --创建一个分支
