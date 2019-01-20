@@ -19,6 +19,9 @@ git reflog                            --查看命令历史
 git checkout -- filename              --放弃工作区的文件修改（即add之前）
 git reset HEAD filename               --放弃暂存区的修改（即add之后commit之前）
 git rm                                --用于删除一个文件
+git tag                               --查看所有标签
+git tag <tagname>                     --给本次提交打标签
+git tag <tagname> <tagnumber>         --更改某次标签的内容（依据标签号）
 
 分支:
     git checkout -b <branchname>          --创建一个分支
