@@ -21,16 +21,21 @@ git reset HEAD filename               --放弃暂存区的修改（即add之后c
 git rm                                --用于删除一个文件
 
 分支:
-git checkout -b <branchname>          --创建一个分支
-git checkout <branchname>             --回到某分支
-git merge <branchname>                --合并指定分支到当前分支
-git branch -d <branchname>            --删除分支
-git brance -D <branchname>            --强制删除未合并的分支
-git branch                            --查看所有分支
-git log --graph                       --查看分支合并图
-git merge --no-ff <branchname>        --强制非快速合并
-git stash                             --暂存分支
-git stash list                        --查看暂存列表
-git stash apply <stashname>           --恢复到分支，但stash内容不删除
-git stash drop <stashname>            --删除stash内容
-git stash pop <stashname>             --恢复stash,并且删除 
+    git checkout -b <branchname>          --创建一个分支
+    git checkout <branchname>             --回到某分支
+    git merge <branchname>                --合并指定分支到当前分支
+    git branch -d <branchname>            --删除分支
+    git brance -D <branchname>            --强制删除未合并的分支
+    git branch                            --查看所有分支
+    git log --graph                       --查看分支合并图
+    git merge --no-ff <branchname>        --强制非快速合并
+    git stash                             --暂存分支
+    git stash list                        --查看暂存列表
+    git stash apply <stashname>           --恢复到分支，但stash内容不删除
+    git stash drop <stashname>            --删除stash内容
+    git stash pop <stashname>             --恢复stash,并且删除 
+多人协作:
+    git push origin <branchname>          --推送修改
+    git pull                              --合并修改
+    git branch --set-upstream-to <branchname> origin/<branchname>  --创建本地分支与远程分支连接
+    git checkout -b <branchname> origin/<branchname>    --在本地创建与远程对应的分支
