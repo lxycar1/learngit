@@ -11,8 +11,7 @@ git流程：
 
 
 git 奇技淫巧：
-git config --global color.ui true     --
-让git显示颜色
+git config --global color.ui true     --让git显示颜色
 git status                            --掌握工作区状态
 git diff                              --查看修改内容
 git reset --hard commit_id            -- 返回到制定版本
